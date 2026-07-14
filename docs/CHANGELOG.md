@@ -29,6 +29,11 @@
   launch, removed it (image still sits unused at
   `TemplateImages/MinimalistStyle/Template2.png` for a future addition).
   See `docs/PORTFOLIO_CONTENT.md`.
+- Initialized git, created the public `cboi-ui/portfolio` GitHub repo, pushed
+  the initial commit, and enabled GitHub Pages (legacy branch-based
+  deployment from `main`, not the Actions workflow build type, since this is
+  a plain static site with no build step). Live at
+  https://cboi-ui.github.io/portfolio/
 
 ## 2026-07-13
 

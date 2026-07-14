@@ -11,8 +11,9 @@
       `py -m http.server` instead, see `CLAUDE.md` for the gotcha).
 - [x] Get feedback, iterate (copy pass for tone/Roblox vocab, interactive
       background, shine effects, hero headline rewrite). Approved 2026-07-14.
-- [ ] Create GitHub repo under the `cboi-ui` account (confirm repo name and
-      visibility with user first) and enable GitHub Pages.
+- [x] Create GitHub repo under the `cboi-ui` account and enable GitHub
+      Pages. Live at https://cboi-ui.github.io/portfolio/
+      (repo: https://github.com/cboi-ui/portfolio).
 - [ ] Optional later: custom domain.
 - [ ] Optional later: add testimonials/real project counts once first
       commissions come in, update the hero stat pill and `DESIGN_SYSTEM.md`
