@@ -34,6 +34,11 @@
   deployment from `main`, not the Actions workflow build type, since this is
   a plain static site with no build step). Live at
   https://cboi-ui.github.io/portfolio/
+- Lowered public starting prices: Simple UI $10+ -> $5+, Standard UI $30+ ->
+  $25+ (Complete UI Packages unchanged at $100+). Updated both the site
+  pricing cards (`index.html`) and `docs/PRICING_GUIDE.md` (public table and
+  the internal Basic/Standard UI ranges, so the internal floor doesn't sit
+  above what's advertised).
 
 ## 2026-07-13
 

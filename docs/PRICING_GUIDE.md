@@ -8,8 +8,8 @@ jobs using the internal guide further down, in DMs.
 
 | Tier | Starting price |
 |---|---|
-| Simple UI | $10+ |
-| Standard UI | $30+ |
+| Simple UI | $5+ |
+| Standard UI | $25+ |
 | Complete UI packages | $100+ |
 
 ---
@@ -19,11 +19,11 @@ jobs using the internal guide further down, in DMs.
 Pricing depends on complexity, number of elements, required polish,
 implementation needs, and revisions — not raw quantity of frames.
 
-### Basic UI — $10–$25
+### Basic UI — $5–$25
 Simple buttons, small popups, basic notifications, counters, small panels.
 Includes: UI design, basic assets, one revision.
 
-### Standard UI — $30–$75
+### Standard UI — $25–$75
 Shop screens, daily rewards, settings, leaderboards, basic inventories.
 Includes: custom layout, icons/assets, polished design, mobile
 considerations.
