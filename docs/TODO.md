@@ -1,54 +1,39 @@
 # TODO
 
-- [x] Get Discord handle to display in Contact section. (`nabi_ui`, updated
-      2026-07-18 from `choiboi12` as part of the rebrand.)
+## Open
+
 - [ ] Decide whether to link HiddenDevs profile, and get the URL if so. Low
       priority, site ships without it for now.
-- [x] Decide whether email should be public or Discord-only. (Discord only)
-- [x] Decide on stats row: no project count yet (0 commissions completed so
-      far), show only "2+ years UI experience," nothing fabricated.
-- [x] Build first version of the site and preview it (Claude Artifact hosting
-      was unreliable in this session, ended up previewing via a local
-      `py -m http.server` instead, see `CLAUDE.md` for the gotcha).
-- [x] Get feedback, iterate (copy pass for tone/Roblox vocab, interactive
-      background, shine effects, hero headline rewrite). Approved 2026-07-14.
-- [x] Create GitHub repo under the `cboi-ui` account and enable GitHub
-      Pages. Live at https://cboi-ui.github.io/portfolio/
-      (repo: https://github.com/cboi-ui/portfolio). Superseded 2026-07-18
-      by the account rename below — now at
-      https://nabi-ui.github.io/portfolio/
-      (repo: https://github.com/nabi-ui/portfolio).
 - [ ] Optional later: custom domain.
 - [ ] Optional later: add testimonials/real project counts once first
       commissions come in, update the hero stat pill and `DESIGN_SYSTEM.md`
       trust layer section accordingly.
+- [ ] Waiting on re-watermarked Minimalist images (Frost Hunter Inventory,
+      Fruits Collection Dex) if they're ever wanted back in the portfolio —
+      source files sit untouched in `TemplateImages/MinimalistStyle/`.
 
-## Rebrand: CBoi -> Nabi (started 2026-07-18)
+## Done (v1 launch, 2026-07-14)
 
-- [x] Rebrand site copy, meta tags, logo, and docs from "CBoi" to "Nabi".
-- [x] User renamed the GitHub account `cboi-ui` -> `nabi-ui` (2026-07-18).
-      Old repo/profile links will 404 or stop redirecting if someone else
-      claims `cboi-ui` in the future.
-- [x] Local git remote updated to `https://github.com/nabi-ui/portfolio.git`
-      and verified (`git ls-remote`). GitHub Pages confirmed live at
-      `https://nabi-ui.github.io/portfolio/` (`WebFetch`-checked).
-- [x] Committed and pushed the rebrand to `origin/main`; confirmed live via
-      background poll of `nabi-ui.github.io/portfolio/` (title, Discord tag,
-      and portfolio all showing the new branding).
-- [x] Re-export/re-watermark Cartoon Simulator UI (Star Shop, popups,
-      settings) and Stud-Style Daily Rewards with "Nabi_ui". Received
-      2026-07-18, wired into `TemplateImages/` and `assets/images/`.
-- [x] Discord handle updated to `nabi_ui` (2026-07-18), replacing
-      `choiboi12` in Contact section.
-- [x] New Stud-Style pieces (Skull Shop, Inventory) added as portfolio #3
-      and wired into `index.html`.
-- [x] Frost Hunter Inventory and Fruits Collection Dex (Clean Minimalist UI)
-      removed from the portfolio at user's request (2026-07-18) instead of
-      being re-watermarked. Removed from `index.html` and
-      `docs/PORTFOLIO_CONTENT.md`; source images left untouched in
-      `TemplateImages/MinimalistStyle/` in case they're wanted back later.
-- [x] Split the 3 grouped multi-image carousel cards into 6 individual
-      cards (2026-07-18, per user request to show more work up front
-      instead of hiding images behind carousel dots): Star Shop, Purchase
-      & Rebirth Popups, Settings Menu, Daily Rewards Claim, Skull Shop,
-      Collection Inventory.
+- [x] Discord-only contact, no public email.
+- [x] No fabricated stats — only "2+ years UI experience," no project/client
+      count or testimonials.
+- [x] Built and previewed v1 (`py -m http.server`, see `CLAUDE.md`).
+- [x] Feedback pass: tone/copy, interactive background, shine effects, hero
+      rewrite.
+- [x] GitHub repo created, Pages enabled (originally under `cboi-ui`, see
+      rebrand below for the current URL).
+
+## Done (rebrand: CBoi -> Nabi, 2026-07-18)
+
+Full detail in `CHANGELOG.md`. Summary: site fully rebranded from "CBoi" to
+"Nabi" (copy, meta tags, logo, docs) to keep this identity separate from
+the user's main/gaming account. GitHub account renamed `cboi-ui` ->
+`nabi-ui`; git remote and Pages URL updated and verified
+(`https://nabi-ui.github.io/portfolio/`). Discord contact updated to
+`nabi_ui`. Portfolio images re-watermarked and re-exported (Star Shop
+suite, Daily Rewards, plus two new pieces: Skull Shop, Collection
+Inventory); Minimalist pieces (Frost Hunter Inventory, Fruits Collection
+Dex) dropped rather than re-watermarked. Portfolio gallery restructured
+from 3 grouped carousel cards to 6 individual cards so all available work
+is visible without click-through. All changes committed and pushed;
+live site confirmed matching.
