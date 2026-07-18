@@ -72,3 +72,36 @@ If you still want an Artifact preview, generate a separate copy with the
 images inlined as base64 `data:` URIs (Artifacts must be fully
 self-contained, no external file references) — but treat it as a bonus, not
 the primary way to check work.
+
+## MCP server setup (do this at the start of a session, not on request)
+
+Roblox Studio matters for this project. It has tripped up prior sessions in
+ways that wasted a whole turn, so check/fix it proactively instead of
+waiting to be asked.
+
+**Roblox Studio** — already connects on its own; just point it correctly:
+- Call `list_roblox_studios`. If more than one instance is open, call
+  `set_active_studio` targeting the one named **"UI Design"** (this project's
+  Studio file) unless the user says otherwise. Do not assume the heuristic
+  default picked the right one.
+
+(Figma MCP setup previously lived here but is no longer part of this
+project's workflow — see below.)
+
+## Roblox UI animation prep and auditing
+
+Separate from the website: the user builds UI panels directly in Roblox
+Studio (no longer via Figma import — that workflow was dropped) and needs
+them prepped for future hover/click/scale animations, or audited for
+architecture/maintainability issues. Use the **`ui-prep`** skill
+(`.claude/skills/ui-prep/SKILL.md`) to center AnchorPoints and recalculate
+Position without changing anything visually, the **`ui-arch`** skill
+(`.claude/skills/ui-arch/SKILL.md`) for a read-only structural audit with a
+scored report, the **`ui-motion-research`** skill
+(`.claude/skills/ui-motion-research/SKILL.md`) as the pre-researched
+knowledge base for actual animation decisions (durations, easings, which
+pattern fits a given interaction), and the **`ui-animate`** skill
+(`.claude/skills/ui-animate/SKILL.md`) to actually implement hover/press
+feedback and a full open/close entrance/exit sequence as a real
+LocalScript once the first three are in place. Keep all four updated as
+the workflow is refined across sessions.
