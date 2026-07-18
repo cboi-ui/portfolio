@@ -31,25 +31,7 @@ urgency UI patterns.
 
 ---
 
-## 2. Frost Hunter Inventory
-
-**Category:** Clean Minimalist UI
-
-**Images:**
-- `TemplateImages/MinimalistStyle/Template1.png` — inventory/loadout panel
-  with item list, character preview, and level/HP/stat bars.
-
-**Description:** A dark, low-noise UI system built for a more serious
-survival/RPG-leaning game. Clear visual hierarchy separates browsing (item
-list) from status (character panel), so a full inventory and a live stat
-readout can share the screen without feeling cluttered.
-
-**Skills demonstrated:** Information hierarchy, dark-theme legibility,
-stat/progress bar treatment.
-
----
-
-## 3. Daily Rewards Claim
+## 2. Daily Rewards Claim
 
 **Category:** Stud-Style UI
 
@@ -66,12 +48,45 @@ style to a specific art direction, iconography-first layout.
 
 ---
 
+## 3. Skull Shop & Inventory
+
+**Category:** Stud-Style UI
+
+**Images:**
+- `TemplateImages/StudStyle/Template2.png` — pirate/skull-themed shop panel
+  with buy and sell actions on the same row per item (Locator Ping, Crazy
+  Bomb, more below the fold).
+- `TemplateImages/StudStyle/Template3.png` — matching inventory panel
+  tracking multiple collections (Gifts, Books) each with their own "X out of
+  10" progress count.
+
+**Description:** A second stud-style UI pair for the same game world as
+Daily Rewards Claim, built around a pirate/skull theme. The shop puts buy
+and sell on one row per item instead of splitting them across separate
+screens, and the inventory scales to multiple collections at once by giving
+each its own labeled row and progress count rather than one big undivided
+grid.
+
+**Skills demonstrated:** Dual-action (buy/sell) list UI, multi-collection
+inventory layout, theme consistency across a shop and inventory pair.
+
+---
+
 ## Adding a new piece
 
 1. Drop screenshots into a `TemplateImages/<Style>/` folder (new or existing).
 2. Add a numbered section here following the template above.
 3. Wire it into the site's portfolio gallery.
 4. Log it in `CHANGELOG.md`.
+
+## Note on removed pieces (2026-07-18)
+
+Frost Hunter Inventory and Fruits Collection Dex (both Clean Minimalist UI)
+were pulled from the portfolio at the user's request during the CBoi ->
+Nabi rebrand, rather than re-watermarked. Their source images are still
+sitting untouched in `TemplateImages/MinimalistStyle/` if they're ever
+wanted back; nothing else in the site or docs currently advertises a
+Minimalist style option.
 
 ## Note on file naming (2026-07-14)
 

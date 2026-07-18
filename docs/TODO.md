@@ -1,6 +1,7 @@
 # TODO
 
-- [x] Get Discord handle to display in Contact section. (`choiboi12`)
+- [x] Get Discord handle to display in Contact section. (`nabi_ui`, updated
+      2026-07-18 from `choiboi12` as part of the rebrand.)
 - [ ] Decide whether to link HiddenDevs profile, and get the URL if so. Low
       priority, site ships without it for now.
 - [x] Decide whether email should be public or Discord-only. (Discord only)
@@ -13,8 +14,39 @@
       background, shine effects, hero headline rewrite). Approved 2026-07-14.
 - [x] Create GitHub repo under the `cboi-ui` account and enable GitHub
       Pages. Live at https://cboi-ui.github.io/portfolio/
-      (repo: https://github.com/cboi-ui/portfolio).
+      (repo: https://github.com/cboi-ui/portfolio). Superseded 2026-07-18
+      by the account rename below — now at
+      https://nabi-ui.github.io/portfolio/
+      (repo: https://github.com/nabi-ui/portfolio).
 - [ ] Optional later: custom domain.
 - [ ] Optional later: add testimonials/real project counts once first
       commissions come in, update the hero stat pill and `DESIGN_SYSTEM.md`
       trust layer section accordingly.
+
+## Rebrand: CBoi -> Nabi (started 2026-07-18)
+
+- [x] Rebrand site copy, meta tags, logo, and docs from "CBoi" to "Nabi".
+- [x] User renamed the GitHub account `cboi-ui` -> `nabi-ui` (2026-07-18).
+      Old repo/profile links will 404 or stop redirecting if someone else
+      claims `cboi-ui` in the future.
+- [x] Local git remote updated to `https://github.com/nabi-ui/portfolio.git`
+      and verified (`git ls-remote`). GitHub Pages confirmed live at
+      `https://nabi-ui.github.io/portfolio/` (`WebFetch`-checked).
+- [ ] **Live site still serves the pre-rebrand build** (title/logo/Discord
+      still say "CBoi"/`choiboi12`, portfolio still shows the old
+      Minimalist piece) — none of this session's commits have been pushed
+      yet. Needs a commit + push before the rebrand is actually live.
+- [x] Re-export/re-watermark Cartoon Simulator UI (Star Shop, popups,
+      settings) and Stud-Style Daily Rewards with "Nabi_ui". Received
+      2026-07-18, wired into `TemplateImages/` and `assets/images/`.
+- [x] Discord handle updated to `nabi_ui` (2026-07-18), replacing
+      `choiboi12` in Contact section.
+- [x] New Stud-Style pieces (Skull Shop, Inventory) added as portfolio #3
+      and wired into `index.html`.
+- [x] Frost Hunter Inventory and Fruits Collection Dex (Clean Minimalist UI)
+      removed from the portfolio at user's request (2026-07-18) instead of
+      being re-watermarked. Removed from `index.html` and
+      `docs/PORTFOLIO_CONTENT.md`; source images left untouched in
+      `TemplateImages/MinimalistStyle/` in case they're wanted back later.
+      Portfolio is now 3 pieces: Star Shop & Popup Suite, Daily Rewards
+      Claim, Skull Shop & Inventory.

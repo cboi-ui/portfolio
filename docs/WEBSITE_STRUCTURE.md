@@ -1,11 +1,12 @@
 # Website Structure
 
 ## Hero
-Name (CBoi), tagline, immediate visual hook. First impression of quality.
+Name (Nabi), tagline, immediate visual hook. First impression of quality.
 
 ## Portfolio
-The 3 grouped projects from `PORTFOLIO_CONTENT.md`, each with image(s),
-category tag, short description, and skills demonstrated.
+The grouped projects from `PORTFOLIO_CONTENT.md` currently wired into the
+site (3, as of 2026-07-18), each with image(s), category tag, short
+description, and skills demonstrated.
 
 ## Services
 Summary of `SERVICES.md` — UI Design, Assets, Polish/Optimization, optional

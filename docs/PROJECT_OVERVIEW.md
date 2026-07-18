@@ -1,8 +1,8 @@
-# CBoi — Roblox UI Commission Portfolio Website
+# Nabi — Roblox UI Commission Portfolio Website
 
 ## Purpose
 
-A professional portfolio/landing page for CBoi's Roblox UI commission work.
+A professional portfolio/landing page for Nabi's Roblox UI commission work.
 Goal: showcase design skill, attract Roblox developers who need UI work, and
 make it easy for them to understand pricing and get in touch.
 

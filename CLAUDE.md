@@ -1,6 +1,6 @@
-# CBoi UI Commission Portfolio
+# Nabi UI Commission Portfolio
 
-This repo is a single-page portfolio/business site for CBoi's Roblox UI commission
+This repo is a single-page portfolio/business site for Nabi's Roblox UI commission
 work, plus the docs that keep the site's content consistent as it evolves.
 
 ## Structure
@@ -18,7 +18,7 @@ work, plus the docs that keep the site's content consistent as it evolves.
   section of the site in the same change. Never let them drift.
 - Keep the public-facing price list to the simple 3-tier version
   (Simple / Standard / Complete). The detailed complexity-based breakdown in
-  `PRICING_GUIDE.md` is for CBoi's own quoting reference — do not publish the
+  `PRICING_GUIDE.md` is for Nabi's own quoting reference — do not publish the
   granular numbers on the site itself (avoids "6 frames = $60" scope-creep
   arguments from clients).
 - When adding a new portfolio piece, add images to `TemplateImages/<Style>/`
