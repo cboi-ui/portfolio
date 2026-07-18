@@ -1,5 +1,53 @@
 # Changelog
 
+## 2026-07-18 (copy pass)
+
+- Trimmed the portfolio card descriptions in `index.html` and
+  `docs/PORTFOLIO_CONTENT.md`. User feedback: the previous descriptions
+  narrated UX rationale (why a pattern was chosen, what it does for
+  retention/monetization) when they just wanted the visual facts up front —
+  style (cartoon/stud), mood (bright/vibrant/dark/pastel), and what the
+  panel is. Card tags and skill-chip tags left unchanged.
+
+## 2026-07-18 (revert)
+
+- Reverted the "Nabi" rebrand back to "CBoi." After further thought the user
+  decided keeping this commission work on a separate alt account/identity
+  raised more suspicion and security concerns than it solved, so the
+  portfolio moves back to the main `CBoi` identity.
+- Updated `index.html`: title, meta/OG/Twitter tags, favicon initial (N -> C),
+  logo, hero copy, footer copyright, and the Discord contact tag (`nabi_ui`
+  -> `choiboi12`, display span + clipboard handler).
+- Reverted `CLAUDE.md`, `docs/PROJECT_OVERVIEW.md`, and
+  `docs/WEBSITE_STRUCTURE.md` wording from Nabi back to CBoi. Historical
+  mentions of the rebrand in past changelog entries and
+  `docs/PORTFOLIO_CONTENT.md`'s "removed pieces" note were left as-is —
+  they're accurate history, not current-state claims.
+- User re-exported all 6 live portfolio screenshots with the "CBoi"
+  watermark restored (Star Shop, Purchase & Rebirth Popups, Settings Menu,
+  Daily Rewards Claim, Skull Shop, Collection Inventory). One image
+  (popups) initially still had "@Nabi_ui" baked into the "Gift a Friend"
+  card copy itself, separate from the corner watermark; user sent a
+  corrected version with "@CBoi" instead.
+- Updated `TemplateImages/CartoonStyle/` (template1, Template2, Template3)
+  and `TemplateImages/StudStyle/` (Template1, Template2, Template3) with the
+  re-watermarked source exports. Resized/compressed them into
+  `assets/images/*.jpg` (1400px width, matching the site's existing
+  convention) and removed the raw staging PNGs once done.
+- Two extra raw exports (`minimalistShop.png` "Frost Hunter", and
+  `Minimalistindex.png` "Fruits Collection Dex") were also dropped into
+  `assets/images/` but aren't wired into the site — those portfolio pieces
+  are still excluded per the standing decision (see `docs/TODO.md`). Removed
+  as stray files rather than wired in; note the Frost Hunter export still
+  has "Nabi" tiled into the background, so it isn't clean CBoi-watermarked
+  yet if it's ever revived.
+- GitHub account renamed back from `nabi-ui` to `cboi-ui` (done manually by
+  the user via account settings). Verified via `gh api user` and
+  `gh api repos/cboi-ui/portfolio`; updated the git remote to
+  `github.com/cboi-ui/portfolio.git` and confirmed GitHub Pages is serving
+  `https://cboi-ui.github.io/portfolio/` (rebuilding immediately after the
+  rename, as expected).
+
 ## 2026-07-18 (later)
 
 - Committed and pushed the full rebrand + portfolio batch from earlier

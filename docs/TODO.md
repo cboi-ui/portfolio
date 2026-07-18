@@ -23,6 +23,16 @@
 - [x] GitHub repo created, Pages enabled (originally under `cboi-ui`, see
       rebrand below for the current URL).
 
+## Done (revert: Nabi -> CBoi, 2026-07-18)
+
+Full detail in `CHANGELOG.md`. Summary: reverted the rebrand below after the
+user decided a separate alt account raised more suspicion/security concerns
+than it solved. Site copy, meta tags, favicon, logo, and docs reverted from
+"Nabi" back to "CBoi." Discord contact reverted to `choiboi12`. Portfolio
+images re-exported with the "CBoi" watermark restored for all 6 live
+pieces. GitHub account renamed back to `cboi-ui`; git remote and Pages URL
+updated and verified (`https://cboi-ui.github.io/portfolio/`).
+
 ## Done (rebrand: CBoi -> Nabi, 2026-07-18)
 
 Full detail in `CHANGELOG.md`. Summary: site fully rebranded from "CBoi" to
@@ -36,4 +46,4 @@ Inventory); Minimalist pieces (Frost Hunter Inventory, Fruits Collection
 Dex) dropped rather than re-watermarked. Portfolio gallery restructured
 from 3 grouped carousel cards to 6 individual cards so all available work
 is visible without click-through. All changes committed and pushed;
-live site confirmed matching.
+live site confirmed matching. Reverted the same day, see above.

@@ -1,7 +1,7 @@
 # Website Structure
 
 ## Hero
-Name (Nabi), tagline, immediate visual hook. First impression of quality.
+Name (CBoi), tagline, immediate visual hook. First impression of quality.
 
 ## Portfolio
 One card per image from `PORTFOLIO_CONTENT.md` (6, as of 2026-07-18 —

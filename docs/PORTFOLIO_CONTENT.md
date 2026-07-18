@@ -16,8 +16,8 @@ click-through dots).
 shop panel with limited-time offers, countdown timers, and Robux buy
 buttons.
 
-**Description:** A high-energy cartoon-style item shop for a simulator
-game, built to make spending Robux feel exciting instead of transactional.
+**Description:** Cartoon-style, bright and vibrant. Item shop with
+countdown offers.
 
 **Skills demonstrated:** Monetization UX, countdown/urgency UI patterns,
 cartoon panel language.
@@ -32,9 +32,8 @@ cartoon panel language.
 purchase confirmation, friends-benefits invite, gift-a-friend, and rebirth
 confirmation.
 
-**Description:** A matching popup set for the Star Shop, sharing
-color-coded actions (green = confirm, red = danger/purchase, blue =
-neutral/gift) so players never have to relearn the pattern across screens.
+**Description:** Cartoon-style, bright and vibrant. Purchase, gift, and
+rebirth confirmation popups.
 
 **Skills demonstrated:** Color-coded actions, UI kit consistency,
 confirmation-flow design.
@@ -49,9 +48,8 @@ confirmation-flow design.
 the same cartoon panel language (Graphics/Audio toggles, accessibility
 options).
 
-**Description:** A settings menu carrying the same rounded-panel language
-as the Star Shop and popups, covering graphics, audio, and accessibility
-toggles (Flashing Lights, Show Blood).
+**Description:** Cartoon-style, clean and light. Settings menu with
+graphics, audio, and accessibility toggles.
 
 **Skills demonstrated:** Toggle/switch UI, accessibility options, UI kit
 consistency.
@@ -65,9 +63,7 @@ consistency.
 **Image:** `TemplateImages/StudStyle/Template1.png` — 5-slot daily login
 rewards grid with a "limited" bonus slot.
 
-**Description:** A pastel, blocky UI matched to a voxel-art game world.
-Reward tiers are scannable at a glance, and the limited-time slot is called
-out visually to drive daily-return habits without needing extra copy.
+**Description:** Stud-style, pastel and vibrant. Daily login rewards grid.
 
 **Skills demonstrated:** Retention-pattern UI (daily rewards), matching UI
 style to a specific art direction, iconography-first layout.
@@ -82,9 +78,7 @@ style to a specific art direction, iconography-first layout.
 shop panel with buy and sell actions on the same row per item (Locator
 Ping, Crazy Bomb, more below the fold).
 
-**Description:** A pirate/skull-themed shop for the same stud-style world
-as Daily Rewards Claim, putting buy and sell on one row per item instead of
-splitting them across separate screens.
+**Description:** Stud-style, darker pirate theme. Buy/sell shop panel.
 
 **Skills demonstrated:** Buy/sell UI, theme-consistent kit, list-based shop
 layout.
@@ -99,9 +93,8 @@ layout.
 tracking multiple collections (Gifts, Books) each with their own "X out of
 10" progress count.
 
-**Description:** A matching inventory panel for the same world as Skull
-Shop, tracking multiple collections at once by giving each its own labeled
-row and progress count instead of one big undivided grid.
+**Description:** Stud-style, dark teal tones. Multi-collection inventory
+tracker.
 
 **Skills demonstrated:** Multi-collection layout, progress tracking,
 theme-consistent kit.
