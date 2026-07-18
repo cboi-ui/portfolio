@@ -4,9 +4,10 @@
 Name (Nabi), tagline, immediate visual hook. First impression of quality.
 
 ## Portfolio
-The grouped projects from `PORTFOLIO_CONTENT.md` currently wired into the
-site (3, as of 2026-07-18), each with image(s), category tag, short
-description, and skills demonstrated.
+One card per image from `PORTFOLIO_CONTENT.md` (6, as of 2026-07-18 —
+switched from 3 grouped multi-image carousel cards to one card per image so
+more work is visible without clicking through), each with category tag,
+short description, and skills demonstrated.
 
 ## Services
 Summary of `SERVICES.md` — UI Design, Assets, Polish/Optimization, optional

@@ -1,5 +1,21 @@
 # Changelog
 
+## 2026-07-18 (later)
+
+- Committed and pushed the full rebrand + portfolio batch from earlier
+  today to `origin/main` (`5402ccd`); confirmed live at
+  `https://nabi-ui.github.io/portfolio/` via a background poll.
+- Restructured the portfolio gallery from 3 grouped multi-image carousel
+  cards to 6 individual one-image cards, per user request to surface more
+  work up front instead of hiding images behind click-through dots: Star
+  Shop, Purchase & Rebirth Popups, and Settings Menu (split out of Star
+  Shop & Popup Suite); Daily Rewards Claim (unchanged); Skull Shop and
+  Collection Inventory (split out of Skull Shop & Inventory). Updated
+  `index.html` and rewrote `docs/PORTFOLIO_CONTENT.md` to one entry per
+  card. Left the Minimalist pieces (Frost Hunter Inventory, Fruits
+  Collection Dex) excluded, per the standing decision to hold them until
+  re-watermarked.
+
 ## 2026-07-18
 
 - Rebrand: site name changed from "CBoi" to "Nabi" to keep this design

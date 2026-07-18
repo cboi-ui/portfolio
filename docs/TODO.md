@@ -32,10 +32,9 @@
 - [x] Local git remote updated to `https://github.com/nabi-ui/portfolio.git`
       and verified (`git ls-remote`). GitHub Pages confirmed live at
       `https://nabi-ui.github.io/portfolio/` (`WebFetch`-checked).
-- [ ] **Live site still serves the pre-rebrand build** (title/logo/Discord
-      still say "CBoi"/`choiboi12`, portfolio still shows the old
-      Minimalist piece) — none of this session's commits have been pushed
-      yet. Needs a commit + push before the rebrand is actually live.
+- [x] Committed and pushed the rebrand to `origin/main`; confirmed live via
+      background poll of `nabi-ui.github.io/portfolio/` (title, Discord tag,
+      and portfolio all showing the new branding).
 - [x] Re-export/re-watermark Cartoon Simulator UI (Star Shop, popups,
       settings) and Stud-Style Daily Rewards with "Nabi_ui". Received
       2026-07-18, wired into `TemplateImages/` and `assets/images/`.
@@ -48,5 +47,8 @@
       being re-watermarked. Removed from `index.html` and
       `docs/PORTFOLIO_CONTENT.md`; source images left untouched in
       `TemplateImages/MinimalistStyle/` in case they're wanted back later.
-      Portfolio is now 3 pieces: Star Shop & Popup Suite, Daily Rewards
-      Claim, Skull Shop & Inventory.
+- [x] Split the 3 grouped multi-image carousel cards into 6 individual
+      cards (2026-07-18, per user request to show more work up front
+      instead of hiding images behind carousel dots): Star Shop, Purchase
+      & Rebirth Popups, Settings Menu, Daily Rewards Claim, Skull Shop,
+      Collection Inventory.

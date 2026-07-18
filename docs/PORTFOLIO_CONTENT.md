@@ -1,43 +1,69 @@
 # Portfolio Content
 
-Source images live in `TemplateImages/<Style>/`. Each portfolio entry below is
-a grouping shown as one project on the site, not a raw per-image dump.
+Source images live in `TemplateImages/<Style>/`. As of 2026-07-18 each
+portfolio entry below is shown as its own card on the site (previously some
+were grouped into one multi-image carousel card; switched to one card per
+image so more work is visible at once instead of hidden behind
+click-through dots).
 
 ---
 
-## 1. Star Shop & Popup Suite
+## 1. Star Shop
 
 **Category:** Cartoon Simulator UI
 
-**Images:**
-- `TemplateImages/CartoonStyle/template1.png` — "Star Shop" item shop panel
-  with limited-time offers, countdown timers, and Robux buy buttons.
-- `TemplateImages/CartoonStyle/Template2.png` — matching popup set: purchase
-  confirmation, friends-benefits invite, gift-a-friend, and rebirth
-  confirmation.
-- `TemplateImages/CartoonStyle/Template3.png` — settings menu in the same
-  cartoon panel language (Graphics/Audio toggles, accessibility options).
+**Image:** `TemplateImages/CartoonStyle/template1.png` — "Star Shop" item
+shop panel with limited-time offers, countdown timers, and Robux buy
+buttons.
 
-**Description:** A cohesive cartoon-style UI kit for a simulator game —
-bright, high-energy, built to make impulse purchases feel fun rather than
-transactional. Consistent rounded-panel language and color-coded actions
-(green = confirm, red = danger/purchase, blue = neutral/gift) carried across
-every popup and the settings menu so players never have to relearn the
-pattern.
+**Description:** A high-energy cartoon-style item shop for a simulator
+game, built to make spending Robux feel exciting instead of transactional.
 
-**Skills demonstrated:** UI kit consistency across multiple screens, color
-psychology for calls-to-action, monetization-friendly shop layout, countdown/
-urgency UI patterns.
+**Skills demonstrated:** Monetization UX, countdown/urgency UI patterns,
+cartoon panel language.
 
 ---
 
-## 2. Daily Rewards Claim
+## 2. Purchase & Rebirth Popups
+
+**Category:** Cartoon Simulator UI
+
+**Image:** `TemplateImages/CartoonStyle/Template2.png` — popup set:
+purchase confirmation, friends-benefits invite, gift-a-friend, and rebirth
+confirmation.
+
+**Description:** A matching popup set for the Star Shop, sharing
+color-coded actions (green = confirm, red = danger/purchase, blue =
+neutral/gift) so players never have to relearn the pattern across screens.
+
+**Skills demonstrated:** Color-coded actions, UI kit consistency,
+confirmation-flow design.
+
+---
+
+## 3. Settings Menu
+
+**Category:** Cartoon Simulator UI
+
+**Image:** `TemplateImages/CartoonStyle/Template3.png` — settings menu in
+the same cartoon panel language (Graphics/Audio toggles, accessibility
+options).
+
+**Description:** A settings menu carrying the same rounded-panel language
+as the Star Shop and popups, covering graphics, audio, and accessibility
+toggles (Flashing Lights, Show Blood).
+
+**Skills demonstrated:** Toggle/switch UI, accessibility options, UI kit
+consistency.
+
+---
+
+## 4. Daily Rewards Claim
 
 **Category:** Stud-Style UI
 
-**Images:**
-- `TemplateImages/StudStyle/Template1.png` — 5-slot daily login rewards grid
-  with a "limited" bonus slot.
+**Image:** `TemplateImages/StudStyle/Template1.png` — 5-slot daily login
+rewards grid with a "limited" bonus slot.
 
 **Description:** A pastel, blocky UI matched to a voxel-art game world.
 Reward tiers are scannable at a glance, and the limited-time slot is called
@@ -48,34 +74,46 @@ style to a specific art direction, iconography-first layout.
 
 ---
 
-## 3. Skull Shop & Inventory
+## 5. Skull Shop
 
 **Category:** Stud-Style UI
 
-**Images:**
-- `TemplateImages/StudStyle/Template2.png` — pirate/skull-themed shop panel
-  with buy and sell actions on the same row per item (Locator Ping, Crazy
-  Bomb, more below the fold).
-- `TemplateImages/StudStyle/Template3.png` — matching inventory panel
-  tracking multiple collections (Gifts, Books) each with their own "X out of
-  10" progress count.
+**Image:** `TemplateImages/StudStyle/Template2.png` — pirate/skull-themed
+shop panel with buy and sell actions on the same row per item (Locator
+Ping, Crazy Bomb, more below the fold).
 
-**Description:** A second stud-style UI pair for the same game world as
-Daily Rewards Claim, built around a pirate/skull theme. The shop puts buy
-and sell on one row per item instead of splitting them across separate
-screens, and the inventory scales to multiple collections at once by giving
-each its own labeled row and progress count rather than one big undivided
-grid.
+**Description:** A pirate/skull-themed shop for the same stud-style world
+as Daily Rewards Claim, putting buy and sell on one row per item instead of
+splitting them across separate screens.
 
-**Skills demonstrated:** Dual-action (buy/sell) list UI, multi-collection
-inventory layout, theme consistency across a shop and inventory pair.
+**Skills demonstrated:** Buy/sell UI, theme-consistent kit, list-based shop
+layout.
+
+---
+
+## 6. Collection Inventory
+
+**Category:** Stud-Style UI
+
+**Image:** `TemplateImages/StudStyle/Template3.png` — inventory panel
+tracking multiple collections (Gifts, Books) each with their own "X out of
+10" progress count.
+
+**Description:** A matching inventory panel for the same world as Skull
+Shop, tracking multiple collections at once by giving each its own labeled
+row and progress count instead of one big undivided grid.
+
+**Skills demonstrated:** Multi-collection layout, progress tracking,
+theme-consistent kit.
 
 ---
 
 ## Adding a new piece
 
 1. Drop screenshots into a `TemplateImages/<Style>/` folder (new or existing).
-2. Add a numbered section here following the template above.
+2. Add a numbered section here following the template above (one entry per
+   image/card, unless a set is genuinely meant to share a single carousel
+   card).
 3. Wire it into the site's portfolio gallery.
 4. Log it in `CHANGELOG.md`.
 
